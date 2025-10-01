@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CRAZYSHOP-ECOMMERCE-STORES/static/css/main.2849f22d.css",
-    "main.js": "/CRAZYSHOP-ECOMMERCE-STORES/static/js/main.732b53e7.js",
+    "main.js": "/CRAZYSHOP-ECOMMERCE-STORES/static/js/main.c236b275.js",
     "static/media/banner_kids.png": "/CRAZYSHOP-ECOMMERCE-STORES/static/media/banner_kids.fff815a581793a7380fb.png",
     "static/media/banner_women.png": "/CRAZYSHOP-ECOMMERCE-STORES/static/media/banner_women.5a27fc4e4533e57e4676.png",
     "static/media/banner_mens.png": "/CRAZYSHOP-ECOMMERCE-STORES/static/media/banner_mens.eed7197157196f319b17.png",
@@ -48,6 +48,6 @@
   },
   "entrypoints": [
     "static/css/main.2849f22d.css",
-    "static/js/main.732b53e7.js"
+    "static/js/main.c236b275.js"
   ]
 }
