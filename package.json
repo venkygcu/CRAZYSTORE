@@ -15,14 +15,14 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://venkygcu.github.io/CRAZYSHOP-ECOMMERCE-STORES/",
+  "homepage": "https://venkygcu.github.io/CRAZYSTORE/",
   "scripts": {
     "start": "node server/src/index.js",
     "dev": "concurrently --kill-others-on-fail --raw -c \"blue,green\" -n \"server,client\" -s \"true\" \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "cross-env PORT=5001 node server/src/index.js",
     "dev:client": "cross-env PORT=3000 react-scripts start",
     "build": "cross-env REACT_APP_ENV=production REACT_APP_ENABLE_MOCK_DATA=true react-scripts build",
-    "build:github": "cross-env REACT_APP_ENV=production REACT_APP_ENABLE_MOCK_DATA=true PUBLIC_URL=/CRAZYSHOP-ECOMMERCE-STORES react-scripts build",
+    "build:github": "cross-env REACT_APP_ENV=production REACT_APP_ENABLE_MOCK_DATA=true PUBLIC_URL=/CRAZYSTORE react-scripts build",
     "postbuild": "node -e \"require('fs').existsSync('build') ? console.log('Build ready') : process.exit(1)\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
