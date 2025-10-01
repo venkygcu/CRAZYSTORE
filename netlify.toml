@@ -1,0 +1,21 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+  
+[build.environment]
+  REACT_APP_ENV = "production"
+  REACT_APP_ENABLE_MOCK_DATA = "true"
+  CI = "false"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production.environment]
+  REACT_APP_ENV = "production"
+  REACT_APP_ENABLE_MOCK_DATA = "true"
+
+[context.deploy-preview.environment]
+  REACT_APP_ENV = "production"
+  REACT_APP_ENABLE_MOCK_DATA = "true"
